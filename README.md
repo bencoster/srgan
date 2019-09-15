@@ -1,10 +1,20 @@
 ## Super Resolution Examples
 
 
-We run this script under [TensorFlow](https://www.tensorflow.org) 1.4 and the [TensorLayer](https://github.com/tensorlayer/tensorlayer) 1.8.0+.
+
+
+We run this script under [TensorFlow](https://www.tensorflow.org) 2.0 and the [TensorLayer](https://github.com/tensorlayer/tensorlayer) 2.0+. For TensorLayer 1.4 version, please check [release](https://github.com/tensorlayer/srgan/releases).
 
 <!---
-⚠️ This repo will be merged into [tensorlayer](https://github.com/zsdonghao/tensorlayer) soon.
+⚠️ This repo will be merged into example folder of [tensorlayer](https://github.com/zsdonghao/tensorlayer) soon.
+-->
+🚀🚀🚀🚀🚀🚀 **THIS PROJECT WILL BE CLOSED AND MOVED TO [THIS FOLDER](https://github.com/tensorlayer/tensorlayer/tree/master/examples) IN A MONTH.**
+
+🚀🚀🚀🚀🚀🚀 **THIS PROJECT WILL BE CLOSED AND MOVED TO [THIS FOLDER](https://github.com/tensorlayer/tensorlayer/tree/master/examples) IN A MONTH.**
+
+🚀🚀🚀🚀🚀🚀 **THIS PROJECT WILL BE CLOSED AND MOVED TO [THIS FOLDER](https://github.com/tensorlayer/tensorlayer/tree/master/examples) IN A MONTH.**
+
+<!--More cool Computer Vision applications such as pose estimation and style transfer can be found in this [organization](https://github.com/tensorlayer).**
 -->
 
 ### SRGAN Architecture
@@ -53,13 +63,15 @@ config.TRAIN.img_path = "your_image_folder/"
 - Start training.
 
 ```bash
-python main.py
+python train.py
 ```
 
-- Start evaluation. ([pretrained model](https://github.com/tensorlayer/srgan/releases/tag/1.2.0) for DIV2K)
+- Start evaluation. 
+
+<!--([pretrained model](https://github.com/tensorlayer/srgan/releases/tag/1.2.0) for DIV2K)-->
 
 ```bash
-python main.py --mode=evaluate 
+python train.py --mode=evaluate 
 ```
 
 
@@ -69,6 +81,29 @@ python main.py --mode=evaluate
 
 ### Author
 - [zsdonghao](https://github.com/zsdonghao)
+
+### Citation
+If you find this project useful, we would be grateful if you cite the TensorLayer paper：
+
+```
+@article{tensorlayer2017,
+author = {Dong, Hao and Supratak, Akara and Mai, Luo and Liu, Fangde and Oehmichen, Axel and Yu, Simiao and Guo, Yike},
+journal = {ACM Multimedia},
+title = {{TensorLayer: A Versatile Library for Efficient Deep Learning Development}},
+url = {http://tensorlayer.org},
+year = {2017}
+}
+```
+
+### Other Projects
+
+- [Style Transfer](https://github.com/tensorlayer/adaptive-style-transfer)
+- [Pose Estimation](https://github.com/tensorlayer/openpose)
+
+### Discussion
+
+- [TensorLayer Slack](https://join.slack.com/t/tensorlayer/shared_invite/enQtMjUyMjczMzU2Njg4LWI0MWU0MDFkOWY2YjQ4YjVhMzI5M2VlZmE4YTNhNGY1NjZhMzUwMmQ2MTc0YWRjMjQzMjdjMTg2MWQ2ZWJhYzc)
+- [TensorLayer WeChat](https://github.com/tensorlayer/tensorlayer-chinese/blob/master/docs/wechat_group.md)
 
 ### License
 
